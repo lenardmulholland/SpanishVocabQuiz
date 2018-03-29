@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/QuizTitle"
+            android:text="@string/title"/>
+
+        <TextView
+            style="@style/QuizSubtitle"
+            android:text="@string/food_vocabulary"/>
+
+        <LinearLayout
+            style="@style/QuestionView">
+
+            <TextView
+                style="@style/QuestionTextView"
+                android:text="@string/food_question_one" />
+
+            <RadioGroup
+                android:id="@+id/question_one"
+                style="@style/RadioGroups">
+
+                <RadioButton
+                    android:id="@+id/question_one_a"
+                    style="@style/RadioButtons"
+                    android:text="@string/friholes"/>
+
+                <RadioButton
+                    android:id="@+id/question_one_b"
+                    style="@style/RadioButtons"
+                    android:text="@string/beans_es"/>
+
+                <RadioButton
+                    android:id="@+id/question_one_c"
+                    style="@style/RadioButtons"
+                    android:text="@string/frejules"/>
+
+                <RadioButton
+                    android:id="@+id/question_one_d"
+                    style="@style/RadioButtons"
+                    android:text="@string/freholes"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuestionView">
+
+            <TextView
+                style="@style/QuestionTextView"
+                android:text="@string/food_question_two" />
+
+            <CheckBox
+                android:id="@+id/question_two_a"
+                style="@style/CheckBoxTop"
+                android:text="@string/onion_es"/>
+
+            <CheckBox
+                android:id="@+id/question_two_b"
+                style="@style/CheckBoxes"
+                android:text="@string/cars_es"/>
+
+            <CheckBox
+                android:id="@+id/question_two_c"
+                style="@style/CheckBoxes"
+                android:text="@string/green_beans_es"/>
+
+            <CheckBox
+                android:id="@+id/question_two_d"
+                style="@style/CheckBoxes"
+                android:text="@string/pancakes_es"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuestionView">
+
+            <TextView
+                style="@style/QuestionTextView"
+                android:text="@string/food_question_three" />
+
+            <EditText
+                android:id="@+id/question_three"
+                style="@style/EditTextQuestions"
+                android:hint="@string/hint_bread"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuestionView">
+
+            <TextView
+                style="@style/QuestionTextView"
+                android:text="@string/food_question_four" />
+
+            <RadioGroup
+                android:id="@+id/question_four"
+                style="@style/RadioGroups">
+
+                <RadioButton
+                    android:id="@+id/question_four_a"
+                    style="@style/RadioButtons"
+                    android:text="@string/corn"/>
+
+                <RadioButton
+
+                    android:id="@+id/question_four_b"
+                    style="@style/RadioButtons"
+                    android:text="@string/carrots"/>
+
+                <RadioButton
+
+                    android:id="@+id/question_four_c"
+                    style="@style/RadioButtons"
+                    android:text="@string/onions"/>
+
+                <RadioButton
+                    android:id="@+id/question_four_d"
+                    style="@style/RadioButtons"
+                    android:text="@string/rice"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuestionView">
+
+            <TextView
+                style="@style/QuestionTextView"
+                android:text="@string/food_question_five" />
+
+            <CheckBox
+                android:id="@+id/question_five_a"
+                style="@style/CheckBoxTop"
+                android:text="@string/mushrooms_es"/>
+
+            <CheckBox
+                android:id="@+id/question_five_b"
+                style="@style/CheckBoxes"
+                android:text="@string/green_beans_es"/>
+
+            <CheckBox
+                android:id="@+id/question_five_c"
+                style="@style/CheckBoxes"
+                android:text="@string/flan_es"/>
+
+            <CheckBox
+                android:id="@+id/question_five_d"
+                style="@style/CheckBoxes"
+                android:text="@string/ice_cream_es"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuestionView">
+
+            <TextView
+                style="@style/QuestionTextView"
+                android:text="@string/food_question_six" />
+
+            <EditText
+                android:id="@+id/question_six"
+                style="@style/EditTextQuestions"
+                android:hint="@string/hint_cake"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuestionView">
+
+            <TextView
+                style="@style/QuestionTextView"
+                android:text="@string/food_question_seven" />
+
+            <RadioGroup
+                android:id="@+id/question_seven"
+                style="@style/RadioGroups">
+
+                <RadioButton
+                    android:id="@+id/question_seven_a"
+                    style="@style/RadioButtons"
+                    android:text="@string/answer_true"/>
+
+                <RadioButton
+                    android:id="@+id/question_seven_b"
+                    style="@style/RadioButtons"
+                    android:text="@string/answer_false"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuestionView">
+
+            <TextView
+                style="@style/QuestionTextView"
+                android:text="@string/food_question_eight" />
+
+            <CheckBox
+                android:id="@+id/question_eight_a"
+                style="@style/CheckBoxTop"
+                android:text="@string/chicken_es"/>
+
+            <CheckBox
+                android:id="@+id/question_eight_b"
+                style="@style/CheckBoxes"
+                android:text="@string/bread_es"/>
+
+            <CheckBox
+                android:id="@+id/question_eight_c"
+                style="@style/CheckBoxes"
+                android:text="@string/fish_es"/>
+
+            <CheckBox
+                android:id="@+id/question_eight_d"
+                style="@style/CheckBoxes"
+                android:text="@string/flan_es"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuestionView">
+
+            <TextView
+                style="@style/QuestionTextView"
+                android:text="@string/food_question_nine" />
+
+            <EditText
+                android:id="@+id/question_nine"
+                style="@style/EditTextQuestions"
+                android:hint="@string/hint_vegetables"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuestionView">
+
+            <TextView
+                style="@style/QuestionTextView"
+                android:text="@string/food_question_ten" />
+
+            <RadioGroup
+                android:id="@+id/question_ten"
+                style="@style/RadioGroups">
+
+                <RadioButton
+                    android:id="@+id/question_ten_a"
+                    style="@style/RadioButtons"
+                    android:text="@string/mushrooms_es"/>
+
+                <RadioButton
+                    android:id="@+id/question_ten_b"
+                    style="@style/RadioButtons"
+                    android:text="@string/onion_es"/>
+
+                <RadioButton
+                    android:id="@+id/question_ten_c"
+                    style="@style/RadioButtons"
+                    android:text="@string/fish_es"/>
+
+                <RadioButton
+                    android:id="@+id/question_ten_d"
+                    style="@style/RadioButtons"
+                    android:text="@string/ice_cream_es"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit_button"
+            style="@style/RedButton"
+            android:text="@string/submit_button"
+            android:onClick="submitAnswers"/>
+
+    </LinearLayout>
+</ScrollView>

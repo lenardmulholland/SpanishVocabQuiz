@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_text">48sp</dimen>
+    <dimen name="subtitle_text">28sp</dimen>
+    <dimen name="title_margin">24dp</dimen>
+    <dimen name="dividing_bar_width">4dp</dimen>
+    <dimen name="question_margin">16dp</dimen>
+    <dimen name="text_margin">8dp</dimen>
+    <dimen name="question_text">20sp</dimen>
+</resources>
